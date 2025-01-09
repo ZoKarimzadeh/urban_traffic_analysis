@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2, h3 { color: #2c3e50; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        th, td { border: 1px solid #dddddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>Traffic Analysis Report</h1>
+    <h2>1. Peak Traffic Hour</h2>
+    <p>The hour with the highest average traffic volume is 5:00-6:00PM.</p>
+    <h2>2. Peak Traffic Day</h2>
+    <p>The day of the week with the highest average traffic volume is Thursday.</p>
+    <h2>3. Peak Traffic Location</h2>
+    <p>The roadway with the highest total traffic volume is 2 AVENUE.</p>
+    <h2>Patterns by Day of the Week</h2>
+    <img src="patterns_by_day.png" alt="Patterns by Day of the Week">
+    <pre> DayOfWeek  AverageTrafficVolume
+         0            421.319676
+         1            433.586703
+         2            436.553019
+         3            446.630034
+         4            442.754524
+         5            388.411630
+         6            367.871297</pre>
+    <h2>Traffic Volume by Hour</h2>
+    <img src="traffic_by_hour.png" alt="Traffic Volume by Hour">
+    <pre>         Time  AverageTrafficVolume
+12:00-1:00 AM            268.121110
+  1:00-2:00AM            199.495542
+  2:00-3:00AM            158.692710
+  3:00-4:00AM            138.482897
+  4:00-5:00AM            145.387216
+  5:00-6:00AM            181.252397
+  6:00-7:00AM            298.851135
+  7:00-8:00AM            449.667142
+  8:00-9:00AM            516.786123
+ 9:00-10:00AM            495.612616
+10:00-11:00AM            487.285450
+11:00-12:00PM            500.595795
+ 12:00-1:00PM            518.770227
+  1:00-2:00PM            533.232464
+  2:00-3:00PM            567.876198
+  3:00-4:00PM            598.417325
+  4:00-5:00PM            599.447267
+  5:00-6:00PM            600.306476
+  6:00-7:00PM            578.716232
+  7:00-8:00PM            521.869638
+  8:00-9:00PM            459.429268
+ 9:00-10:00PM            403.548360
+10:00-11:00PM            362.049790
+11:00-12:00AM            318.573759</pre>
+    <h2>Total Traffic Volume by Roadway</h2>
+    <img src="total_traffic_by_roadway.png" alt="Total Traffic by Roadway">
+    <pre>            Roadway Name  TotalTrafficVolume
+                   1 AVE           347366.00
+                1 AVENUE          1034187.00
+               10 AVENUE           587052.00
+                 101 AVE            36618.00
+               11 AVENUE           304244.00
+                 111 AVE            44541.00
+                115 ROAD             2849.00
+                 11th ST           146462.00
+               13 AVENUE            73234.00
+                  130 PL            79351.00
+               14 AVENUE            74271.00
+                150th ST           111308.00
+              164 STREET           116340.00
+               18 AVENUE            97215.00
+                   2 AVE           346225.00
+                2 AVENUE          2747290.00
+                  26 AVE            91728.00
+                   3 AVE           283665.00
+                3 AVENUE          2046053.00
+                3 STREET            39898.00
+                32nd AVE            59699.00
+                34th AVE           136631.00
+                  35 AVE           117883.00
+               37 STREET            41937.00
+               39 STREET            58398.00
+                 39th ST           134857.00
+                4 AVENUE           835984.00
+                 48th ST            77766.00
+                5 AVENUE          1577832.00
+               50 STREET            27956.00
+               51 STREET            39182.00
+                  56 AVE             6571.00
+                 56th RD            86713.00
+                6 AVENUE            69886.00
+               60 STREET           220072.00
+               65 STREET           564404.00
+                   7 AVE           682057.00
+                7 AVENUE           883263.00
+                73 PLACE            63750.00
+                   8 AVE           213738.00
+                8 AVENUE           781053.00
+               86 STREET           222360.00
+                 86th ST           208821.00
+                9 AVENUE           560380.00
+              ALBANY AVE           247521.00
+           ALBANY AVENUE            60877.00
+            ALLEN STREET           209250.00
+           AMSTERDAM AVE           812686.14
+        AMSTERDAM AVENUE           427004.00
+              ARCHER AVE            60944.00
+        ARTHUR KILL ROAD            47089.00
+                  ASH ST             8813.00
+           ASHLAND PLACE            63523.00
+            ATLANTIC AVE          1320237.00
+         ATLANTIC AVENUE           828211.00
+             AUDUBON AVE            74499.00
+                   AVE M           103521.00
+                   AVE N           117075.00
+                   AVE P           284965.00
+                   AVE U           160673.00
+                   AVE Z            92988.00
+                AVENUE B            54771.00
+                AVENUE C           101882.00
+                AVENUE D            71033.00
+                AVENUE J           141459.00
+                AVENUE M            19345.00
+                AVENUE N            73821.00
+      AVENUE OF AMERICAS           289850.00
+  AVENUE OF THE AMERICAS           798656.00
+                AVENUE U           294933.00
+                BATH AVE            98559.00
+                BAY PKWY           209803.00
+          BAY RIDGE PKWY           171369.00
+             BEDFORD AVE           569808.00
+              BENSON AVE            21498.00
+       BLOOMINGDALE ROAD            95944.00
+             BOSTON ROAD           551678.00
+                  BOWERY           178643.00
+            BRADDOCK AVE           105165.00
+         BRINKERHOFF AVE            11913.00
+                BROADWAY          2208674.00
+            BROOKLYN AVE            73936.00
+           BROOME STREET           137935.00
+      BRUCKNER BOULEVARD           314747.00
+            CANAL STREET           384165.00
+        CATHERINE STREET            34570.00
+               CATON AVE           279885.00
+            CEDAR AVENUE            46013.00
+             CENTRAL AVE           135706.00
+       CENTRAL PARK WEST           306276.00
+         CHAMBERS STREET           122519.00
+         CHRYSTIE STREET            81216.00
+              CHURCH AVE           222125.00
+           CHURCH STREET           177911.00
+          CLARENDON ROAD            94029.00
+             CLASSON AVE            67116.00
+          CLINTON STREET           165062.00
+                CLOVE RD           313416.00
+           COLONIAL ROAD            34476.00
+         COLUMBIA STREET            92637.00
+            COLUMBUS AVE           107086.00
+         COLUMBUS AVENUE           219052.00
+           COMMERCIAL ST             6445.00
+        CONEY ISLAND AVE           441787.00
+     CONEY ISLAND AVENUE           199477.00
+          CORTELYOU ROAD            91675.00
+         CORTLANDT ALLEY             1313.00
+            COURT STREET            85829.00
+             CROPSEY AVE           394357.00
+  CROSS BRONX EXPRESSWAY          1752072.00
+   CROSS BX EXPWY SER RD            22458.00
+    CROSS ISLAND PARKWAY          1172534.00
+    CROSS ISLAND PKWY SR            26532.00
+          CROTONA AVENUE           186633.00
+           DITMAS AVENUE            86950.00
+              DRIGGS AVE            72555.00
+     DRUMGOOLE ROAD WEST            29580.00
+          DYCKMAN STREET           125657.00
+                E 174 ST            35805.00
+                E 176 ST            11730.00
+                E 177 ST            26161.00
+                E 4TH ST            47810.00
+         EAST 135 STREET            26775.00
+         EAST 138 STREET           278756.00
+          EAST 14 STREET           172232.00
+         EAST 161 STREET           115068.00
+         EAST 163 STREET           101989.00
+         EAST 165 STREET            94906.00
+         EAST 177 STREET            31039.00
+          EAST 18 STREET            62241.00
+         EAST 204 STREET            22397.00
+         EAST 241 STREET            38920.00
+     EAST HOUSTON STREET           352077.00
+     EAST TREMONT AVENUE           195125.00
+  EDWARD L GRANT HIGHWAY           258666.00
+               ESPLANADE            13495.00
+             FAIRMONT PL             8694.00
+           FARRAGUT ROAD            46549.00
+        FINGERBOARD ROAD            91530.00
+            FLATBUSH AVE           242479.00
+         FLATBUSH AVENUE           722517.00
+           FLATLANDS AVE           405307.00
+        FLATLANDS AVENUE           238274.00
+            FLUSHING AVE           136159.00
+      FRANCIS LEWIS BLVD           159363.00
+     FT HAMILTON PARKWAY           255198.00
+           FULTON STREET            26926.00
+             GLEN STREET            49943.00
+           GLENWOOD ROAD            93775.00
+      GOWANUS EXPRESSWAY           681313.00
+               GRAND AVE           165613.00
+    GRAND CONCOURSE_MAIN           176390.00
+    GRAND CONCOURSE_SERV           108332.00
+            GRAND STREET            69977.00
+          GREENPOINT AVE           191900.00
+          HEGEMAN AVENUE            18961.00
+       HENRY HUDSON PKWY          1565293.00
+            HICKS STREET           108477.00
+       HOLLIS COURT BLVD           104172.00
+         HOMELAWN STREET            86215.00
+           HOWARD AVENUE            30499.00
+           HUDSON STREET           269833.00
+            HUGUENOT AVE           135004.00
+        HUNGRY HARBOR RD            99203.00
+   HUTCHINSON RIVER PKWY            21411.00
+         HYLAN BOULEVARD            28544.00
+             JAMAICA AVE           287505.00
+          JAMAICA AVENUE           149273.00
+           JEROME AVENUE           268047.00
+               JEWEL AVE           107382.00
+        KEW GARDENS ROAD            55229.00
+           KINGS HIGHWAY           105737.00
+   KINGS HIGHWAY SERVICE            25397.00
+               KINGS HWY           231508.00
+           LAFAYETTE AVE           114573.00
+        LAFAYETTE AVENUE            65346.00
+            LAKEWOOD AVE            25115.00
+               LENOX AVE           235046.00
+        LEXINGTON AVENUE           243472.00
+             LIBERTY AVE           613645.00
+          LIBERTY STREET            30641.00
+             LINDEN BLVD           314096.00
+        LINDEN BOULEVARD           799612.00
+         LITTLE CLOVE RD            63101.00
+       LITTLE CLOVE ROAD            52122.00
+         LONGWOOD AVENUE            33092.00
+   LOUIS NINE  BOULEVARD            53096.00
+       MAC DOUGAL STREET             4494.00
+          MADISON AVENUE           316432.00
+          MADISON STREET            71457.00
+        MANHATTAN AVENUE            37488.00
+           MARATHON PKWY           116400.00
+           MARKET STREET            35584.00
+             MARYLAND RD             1509.00
+             MAURICE AVE            64139.00
+              MEEKER AVE           148009.00
+            MERRICK BLVD           218945.00
+         MESEROLE STREET            29659.00
+        METROPOLITAN AVE           134809.00
+            MONTROSE AVE            57237.00
+           MORLEY AVENUE           118324.00
+           MORRIS AVENUE            95967.00
+              MYRTLE AVE           269110.00
+     Manhattan  BROADWAY            97581.00
+   Manhattan WEST 155 ST            82140.00
+             NEPTUNE AVE           106820.00
+          NORFOLK STREET            43658.00
+            NOSTRAND AVE           274547.00
+         NOSTRAND AVENUE            58020.00
+               OCEAN AVE           355698.00
+            OCEAN AVENUE           143999.00
+           OCEAN TERRACE            68022.00
+           ORIENTAL BLVD            58317.00
+                PARK AVE           310596.00
+             PARK AVENUE           426488.00
+       PARK AVENUE SOUTH           263450.00
+         PAULDING AVENUE            16148.00
+              PITKIN AVE            43830.00
+             PITT STREET            39870.00
+      PROSPECT PARK WEST            97406.00
+      RICHMOND HILL ROAD           176741.00
+           RICHMOND ROAD           146487.00
+         ROCKAWAY AVENUE           109005.00
+           ROCKAWAY BLVD           550344.00
+              ROGERS AVE           429965.00
+           ROOSEVELT AVE            49029.00
+             SANFORD AVE            73817.00
+            SEAGRIT BLVD           161705.00
+         SHERIDAN AVENUE            46625.00
+        SHERIDANA AVENUE            17557.00
+              SHORE PKWY             4671.00
+       SOUTH CONDUIT AVE           493827.00
+      SOUTHERN BOULEVARD           266118.00
+           SPRING STREET            84074.00
+        SPRINGFIELD BLVD           147129.00
+                SURF AVE            86491.00
+  THROGS NECK EXPRESSWAY           588808.00
+THROGS NECK EXPWY SER RD            15335.00
+              TRINITY PL            59454.00
+       UNDERCLIFF AVENUE            66789.00
+           UNDERHILL AVE            13508.00
+            UNION STREET           126206.00
+     VAN WYCK EXPRESSWAY           993244.00
+           VERMONT PLACE           123100.00
+             VERNON BLVD            90155.00
+        WADSWORTH AVENUE            37838.00
+          WALTHAM STREET            32932.00
+          WEBSTER AVENUE           246822.00
+         WEST 135 STREET            54533.00
+             WEST 155 ST            84621.00
+          WEST 29 STREET            76020.00
+          WEST 30 STREET            58390.00
+          WEST 34 STREET           190774.00
+          WEST 39 STREET            88441.00
+           WEST BROADWAY           262182.00
+         WEST END AVENUE            97645.00
+      WEST GUN HILL ROAD           139018.00
+       WHITE PLAINS ROAD           133832.00
+          WOODHAVEN BLVD           425356.00
+             YORK AVENUE           184703.00
+           ZEREGA AVENUE           159143.00</pre>
+    <h2>Average Traffic Volume by Region</h2>
+    <img src="average_traffic_by_region.png" alt="Average Traffic by Region">
+    <pre>       Region  AverageTrafficVolume
+        Bronx            267.365436
+     Brooklyn            346.308878
+    Manhattan            339.567910
+       Queens            279.159679
+Staten Island            195.356399</pre>
+    <h2>Number of Streets by Region</h2>
+    <img src="number_of_streets_by_region.png" alt="Number of Streets by Region">
+    <pre>       Region  NumberOfStreets
+        Bronx               34
+     Brooklyn               86
+    Manhattan               35
+       Queens               46
+Staten Island               10</pre>
+    <h2>Average Traffic Volume by Region and Day of the Week</h2>
+    <img src="average_traffic_by_region_and_day.png" alt="Average Traffic Volume by Region and Day of the Week">
+    <pre>       Region  DayOfWeek          0
+        Bronx          0 271.141260
+        Bronx          1 274.939024
+        Bronx          2 281.009654
+        Bronx          3 284.934028
+        Bronx          4 292.168841
+        Bronx          5 275.531022
+        Bronx          6 221.375767
+     Brooklyn          0 352.012377
+     Brooklyn          1 352.225455
+     Brooklyn          2 355.017413
+     Brooklyn          3 371.103774
+     Brooklyn          4 377.530673
+     Brooklyn          5 333.634972
+     Brooklyn          6 313.602011
+    Manhattan          0 337.660967
+    Manhattan          1 339.829710
+    Manhattan          2 355.290323
+    Manhattan          3 363.076923
+    Manhattan          4 374.877083
+    Manhattan          5 334.337018
+    Manhattan          6 304.948515
+       Queens          0 290.498984
+       Queens          1 306.203453
+       Queens          2 298.404861
+       Queens          3 298.995547
+       Queens          4 293.413889
+       Queens          5 273.892521
+       Queens          6 230.382653
+Staten Island          0 195.735417
+Staten Island          1 204.414474
+Staten Island          2 206.921053
+Staten Island          3 209.006579
+Staten Island          4 214.173913
+Staten Island          5 201.055147
+Staten Island          6 157.552696</pre>
+    <h2>Total Traffic Volume Trend Over Seasons</h2>
+    <img src="traffic_volume_trend_over_seasons.png" alt="Total Traffic Volume Trend Over Seasons">
+    <pre>Season  TotalTrafficVolume
+  Fall         45514480.14
+Spring          1701147.00
+Winter         11654540.00</pre>
+</body>
+</html>
