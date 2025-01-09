@@ -100,4 +100,5 @@ This repository provides a comprehensive analysis of traffic patterns, covering 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/traffic-analysis-report.git
+   gh repo clone ZoKarimzadeh/urban_traffic_analysis
+   
